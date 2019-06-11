@@ -8,6 +8,10 @@
 # install dependencies
 $ yarn install
 
+# deploy to extdev
+$ yarn run gen:loom-key
+$ yarn run migrate
+
 # serve with hot reload at localhost:3000
 $ yarn run dev
 
